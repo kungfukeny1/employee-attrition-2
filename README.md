@@ -33,9 +33,9 @@ All models were trained using a 50–50 train-test split and evaluated using:
 
 | Model               | Accuracy (%) | Notes                              |
 |--------------------|--------------|------------------------------------|
-| Neural Network      | 87.xx%       | Best performance overall            |
-| KNN (k=5)           | 85.xx%       | Simple, but sensitive to scaling    |
-| Decision Tree       | 84.xx%       | Transparent decision rules          |
+| Neural Network      | 83.13%      | Best accuracy, but sensitive to feature scaling       |
+| KNN (k=5)           | 84.35%       | Performs well overall, handles non-linear patterns   |
+| Decision Tree       | 82.86%       | Most interpretable, but slightly less accurate       |
 
 ---
 
@@ -59,9 +59,6 @@ All models were trained using a 50–50 train-test split and evaluated using:
 ---
 
 ## 🔄 Future Work
-
-- Try ensemble methods like Random Forest and Gradient Boosting.
-- Handle class imbalance using SMOTE or cost-sensitive training.
 - Deploy as a web app using Streamlit or Flask.
 
 ---
@@ -70,5 +67,4 @@ All models were trained using a 50–50 train-test split and evaluated using:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/employee-attrition-classification.git
-   cd employee-attrition-classification
+   git clone https://github.com/kungfukeny1/employee-attrition-2

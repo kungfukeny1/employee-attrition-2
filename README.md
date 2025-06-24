@@ -33,8 +33,8 @@ All models were trained using a 50–50 train-test split and evaluated using:
 
 | Model               | Accuracy (%) | Notes                              |
 |--------------------|--------------|------------------------------------|
-|KNN (k=5)            | 83.13%      | Best accuracy, but sensitive to feature scaling       |
-|Neural Networks      | 84.35%       | Performs well overall, handles non-linear patterns   |
+|KNN (k=5)            | 84.35%       | Best accuracy, but sensitive to feature scaling       |
+|Neural Networks      | 83.13%       | Performs well overall, handles non-linear patterns   |
 | Decision Tree       | 82.86%       | Most interpretable, but slightly less accurate       |
 
 ---
